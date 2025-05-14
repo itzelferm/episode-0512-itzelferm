@@ -13,7 +13,8 @@ if __name__ == '__main__':
     import sys
 
     print(describe_multiply())
-
+# Convert command-line arguments to float and multiply
     if len(sys.argv) > 1:
         factors = [float(arg) for arg in sys.argv[1:]]
         print(multiply(factors))
+        
